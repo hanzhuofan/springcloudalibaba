@@ -1,10 +1,9 @@
 package com.bilibili.springcloud;
 
-import com.bilibili.myrule.MySelfRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
  * @author hanzhuofan
@@ -12,9 +11,9 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
  */
 @SpringBootApplication
 @EnableEurekaClient
-//@RibbonClient(name = "CLOUD-PAYMENT-SERVICE",configuration=MySelfRule.class)
-public class OrderMain80 {
+@EnableDiscoveryClient
+public class PaymentMain8003 {
     public static void main(String[] args) {
-        SpringApplication.run(com.bilibili.springcloud.OrderMain80.class, args);
+        SpringApplication.run(com.bilibili.springcloud.PaymentMain8003.class, args);
     }
 }

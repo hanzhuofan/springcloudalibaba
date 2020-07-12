@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author hanzhuofan
- * @create 2020-7-5
+ * @create 2020-7-12
  */
 @Configuration
 public class ApplicationContextConfig {
@@ -17,4 +17,3 @@ public class ApplicationContextConfig {
         return new RestTemplate();
     }
 }
-//applicationContext.xml <bean id="" class="">
