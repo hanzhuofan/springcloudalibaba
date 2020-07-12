@@ -27,6 +27,9 @@
         <module>cloudalibaba-provider-payment9002</module>
         <module>cloudalibaba-consumer-order83</module>
         <module>cloudalibaba-config-client3377</module>
+        <module>cloudalibaba-dubbo-order80</module>
+        <module>cloudalibaba-dubbo-consumer80</module>
+        <module>cloudalibaba-dubbo-provider88</module>
     </modules>
 
     <!--  统一管理jar包版本  -->
